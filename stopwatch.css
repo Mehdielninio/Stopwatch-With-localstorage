@@ -1,0 +1,40 @@
+*{
+background-color: burlywood;
+}
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    margin-top: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15vh;
+    font-size: 100px;
+    font-family: monospace;
+
+
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.buttons button{
+    margin:10px;
+    height: 25px;
+    width: 60px;
+    border-radius: 15px;
+}
+.record{
+    font-size: 50px;
+    font-family: monospace;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
